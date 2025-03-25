@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Ball Photo Feed</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Righteous&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Un poco de alegría a la página-->
+    <button id="darkModeToggle">🌙 Modo oscuro</button>
+    
+    <div class="container">
+        <h1>Dragon Ball Photo Feed</h1>
+        <input type="text" id="searchInput" placeholder="Buscar post...">
+
+    <!-- Posts -->
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Ultra Goku Black</h2>
+            <span>01/01</span>
+        </div>
+        <img src="./assets/Ultra Goku black.jpg" alt="Ultra Goku Black">
+        <p>#UltraInstinct #GokuBlack</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Goku Coffee</h2>
+            <span>02/01</span>
+        </div>
+        <img src="./assets/Goku_Coffee.jpg" alt="Goku Coffee">
+        <p>#Relax #CoffeeTime</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Potara Pendientes</h2>
+            <span>03/01</span>
+        </div>
+        <img src="./assets/Potahara_Pendientes.jpg" alt="Potara">
+        <p>#Fusion #Zamasu</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Red Rose Goku</h2>
+            <span>04/01</span>
+        </div>
+        <img src="./assets/Rose_Red_Background.jpg" alt="Red Rose">
+        <p>#Rose #Epic</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Blue Eyes Goku</h2>
+            <span>05/01</span>
+        </div>
+        <img src="./assets/Blue_Eyes.jpg" alt="Blue Eyes">
+        <p>#StareDown #BattleReady</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>SSJ4 Goku & Vegeta</h2>
+            <span>06/01</span>
+        </div>
+        <img src="./assets/SSJ4_G&V.jpg" alt="SSJ4 G&V">
+        <p>#TeamUp #GT</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Legendary SSJ</h2>
+            <span>07/01</span>
+        </div>
+        <img src="./assets/SSJ_Legendary.jpg" alt="Legendary SSJ">
+        <p>#Legendary #GreenAura</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>G SSJ4</h2>
+            <span>08/01</span>
+        </div>
+        <img src="./assets/G_SSJ4.jpg" alt="G SSJ4">
+        <p>#OverTheClouds</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Gogeta SSJ4</h2>
+            <span>09/01</span>
+        </div>
+        <img src="./assets/Gogeta ssj4.jpg" alt="Gogeta SSJ4">
+        <p>#Fusion #Power</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Goku Urbano</h2>
+            <span>10/01</span>
+        </div>
+        <img src="./assets/Goku_Urban.jpg" alt="Goku Urban">
+        <p>#StreetStyle #SaiyanSwag</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Gohan Beast</h2>
+            <span>11/01</span>
+        </div>
+        <img src="./assets/Gohan.jpg" alt="Gohan">
+        <p>#FatherSon #Transformation</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Gogeta SSJB</h2>
+            <span>12/01</span>
+        </div>
+        <img src="./assets/Gogeta_SSJB.jpg" alt="Gogeta SSJB">
+        <p>#BlueFusion #FinalKamehameha</p>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <h2>Broly Collage</h2>
+            <span>13/01</span>
+        </div>
+        <img src="./assets/Brolly.jpg" alt="Broly">
+        <p>#Chaos #Multiverse</p>
+    </div>
+
+    <!-- Paginación -->
+
+    <div class="pagination">
+      <button id="prevBtn">Anterior</button>
+      <button id="nextBtn">Siguiente</button>
+    </div>
+    <p id="pageNumber" class="page-number"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

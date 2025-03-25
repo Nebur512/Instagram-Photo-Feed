@@ -1,0 +1,167 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #eee;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 30px 0 10px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  span {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+  }
+  
+  p {
+    margin: 10px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .post {
+    background: white;
+    margin: 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .post img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Buscador */
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Paginación */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  
+  .page-number {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 30px;
+  }
+
+  #scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #111;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+
+   /* Comentarios */
+  
+  .comment-input {
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comment-list {
+    list-style: none;
+    margin: 0 10px 10px;
+    padding: 0;
+  }
+  
+  .comment-list li {
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: left;
+  }
+  
+  
+  /* Modo oscuro */
+  #darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 999;
+  }
+  
+  body.dark-mode {
+    background: #121212;
+    color: white;
+  }
+  
+  body.dark-mode .post {
+    background: #1e1e1e;
+  }
+  
+  body.dark-mode .post-header {
+    background: #2c2c2c;
+  }
+  
+  body.dark-mode .pagination button {
+    background: white;
+    color: black;
+  } 
